@@ -17,7 +17,7 @@ class OverExtendsNode(ExtendsNode):
     template counterparts, or even app templates that extend other app
     templates with the same relative name/path.
 
-    We use our own version of ``find_template``, that uses an explict
+    We use our own version of ``find_template``, that uses an explicit
     list of template directories to search for the template, based on
     the directories that the known template loaders
     (``app_directories`` and ``filesystem``) use. This list gets stored
